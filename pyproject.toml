@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "aimarkerfinder"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Demenkov <demps@bionet.nsc.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.5.1"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+torchmetrics = "^1.4.1"
+pyaml = "^24.7.0"
+pykan = "^0.2.6"
+tqdm = "^4.66.5"
+openpyxl = "^3.1.5"
+statsmodels = "^0.14.2"
+nonparstat = "^0.0.3"
+ucimlrepo = "^0.0.7"
+odfpy = "^1.4.1"
+llvmlite = "^0.43.0"
+umap-learn = "^0.5.7"
+imblearn = "^0.0"
+tabulate = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+aimf = "aimarkerfinder.AIMarkerFinder:main"
