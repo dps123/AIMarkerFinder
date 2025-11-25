@@ -3,3 +3,5 @@ In modern bioinformatics, the analysis of high-dimensional data (genomic, metabo
 where feature redundancy reduces classification efficiency and model interpretability. 
 This study introduces a novel method, AIMarkerFinder, for analyzing metabolomic data to identify key biomarkers. 
 The method is based on a denoising autoencoder with an attention mechanism (DAE), enabling the extraction of informative features and the elimination of redundancy.
+
+https://www.preprints.org/manuscript/202511.1705
